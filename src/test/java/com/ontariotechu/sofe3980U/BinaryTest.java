@@ -160,7 +160,7 @@ public class BinaryTest
 		Binary binary1=new Binary("1010");
 		Binary binary2=new Binary("0011");
 		Binary binary3=Binary.and(binary1,binary2);
-        assertTrue( binary3.getValue().equals("0010"));
+        assertTrue( binary3.getValue().equals("10"));
     }
     /**
      * Test The and functions with two binary numbers, the length of the first argument is compared by 0
@@ -171,7 +171,7 @@ public class BinaryTest
 		Binary binary1=new Binary("1111");
 		Binary binary2=new Binary("0000");
 		Binary binary3=Binary.and(binary1,binary2);
-        assertTrue( binary3.getValue().equals("0000"));
+        assertTrue( binary3.getValue().equals("0"));
     }
     /**
      * Test The and functions with two binary numbers, test case for both values being 0
